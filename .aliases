@@ -5,3 +5,26 @@ alias reload='source ~/.bashrc'
 alias ..='cd ..'
 alias ...='cd ../..' 
 alias ....='cd ../../..'
+cd (){
+  builtin cd "$@"
+  ls -laFG
+}
+
+# LS assitance
+alias ll='ls -laFG'
+
+# Create Intermediate directories
+alias mkdir='mkdir -p'
+
+# Zip a folder
+zipf () { 
+    zip -r "$1".zip "$1"
+} 
+
+# Obtain IP info
+getIP() {
+  echo "Local IP"
+  hostname -I | head -c 10
+  echo -e "\nPublic IP"
+  curl ipinfo.io/ip
+}
