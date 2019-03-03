@@ -1,3 +1,4 @@
+# Simple aliaces to assist in daily workflow
 # Reload Shell
 alias reload='source ~/.bashrc'
 
@@ -28,3 +29,10 @@ getIP() {
   echo -e "\nPublic IP"
   curl ipinfo.io/ip
 }
+
+# Clear screen and list contents of directory.
+#clearl() {
+#  clear
+#  pwd
+#  ll
+#}

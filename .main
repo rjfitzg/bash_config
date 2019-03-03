@@ -1,3 +1,6 @@
+# This is the main function for .bash_config to create a central point
+#
+#
 # Call necesary functions from within the file directory
 
 . .aliases
