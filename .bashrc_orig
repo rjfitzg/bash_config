@@ -1,0 +1,6 @@
+# This is a file to assist in the ease of setting up this repo
+# cp this file to your home directory and change its name to '.bashrc' or whatever your system looks for
+if [ -d ~/.bash_config ]; then
+    . ~/.bash_config/.main
+fi
+
