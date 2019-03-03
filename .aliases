@@ -1,2 +1,7 @@
 # Reload Shell
 alias reload='source ~/.bashrc'
+
+# CD assistance
+alias ..='cd ..'
+alias ...='cd ../..' 
+alias ....='cd ../../..'
