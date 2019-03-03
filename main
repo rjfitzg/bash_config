@@ -1,0 +1,3 @@
+# Call necesary functions from within the file directory
+
+. .aliases
